@@ -27,13 +27,15 @@ npm install axios google-auth-library
 1. Copy `recaptcha-test.html` to a running Nginx server
 
 ### Generate Key
-1. Generate the reCAPTCHA key through Google Cloud Console
+1. generate token from the web-page
 
 ### Run Application
 Execute the JavaScript application:
 
 ```bash
 node recaptcha-test.js
+
+paste the generated key from web-page
 ```
 
 ## Dependencies
